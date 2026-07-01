@@ -8,13 +8,12 @@ Gem::Specification.new do |s|
   # rubocop:disable SingleSpaceBeforeFirstArg
   s.name        = 'hitobito_zss'
   s.version     = HitobitoZss::VERSION
-  s.authors     = ['Your name']
-  s.email       = ['Your email']
-  # s.homepage    = 'TODO'
-  s.summary     = 'Zss'
-  s.description = 'Wagon description'
+  s.authors     = ['Andreas Maierhofer']
+  s.email       = ['maierhofer@puzzle.ch']
+  s.homepage    = 'https://www.zss.ch'
+  s.summary     = 'hitobito for Zss'
+  s.description = 'hitobito for Zss'
 
   s.files = Dir['{app,config,db,lib}/**/*'] + ['Rakefile']
-  s.test_files = Dir['test/**/*']
   # rubocop:enable SingleSpaceBeforeFirstArg
 end
