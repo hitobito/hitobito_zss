@@ -5,7 +5,6 @@
 #  or later. See the COPYING file at the top-level directory or at
 #  https://github.com/hitobito/hitobito_zss.
 
-
 module Zss::Group
   extend ActiveSupport::Concern
 
@@ -16,5 +15,4 @@ module Zss::Group
 
     root_types Group::Dachverband
   end
-
 end
