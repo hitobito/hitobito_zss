@@ -11,6 +11,11 @@ application:
     de: Deutsch
     fr: Français
     it: Italiano
+  logo:
+    image: logo.svg
+    width: 200
+    height: 68
+    background_color: none
 
   # non UI languages for assigning to person#language
   # additional_languages:
