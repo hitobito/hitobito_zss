@@ -5,16 +5,25 @@
 #  or later. See the COPYING file at the top-level directory or at
 #  https://github.com/hitobito/hitobito_zss.
 
+class Group::DachverbandVersa < ::Group
+  self.static_name = true
 
-module Zss::Group
-  extend ActiveSupport::Concern
+  ### ROLES
 
-  included do
-    # Define additional used attributes
-    # self.used_attributes += [:website, :bank_account, :description]
-    # self.superior_attributes = [:bank_account]
-
-    root_types Group::Dachverband
+  class Aktiv < ::Role
   end
 
+  class Abgelehnt < ::Role
+  end
+
+  class Sistiert < ::Role
+  end
+
+  class Ausgetreten < ::Role
+  end
+
+  class Provisorisch < ::Role
+  end
+
+  roles Aktiv, Abgelehnt, Sistiert, Ausgetreten, Provisorisch
 end

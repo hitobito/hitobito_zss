@@ -5,5 +5,20 @@
 #  or later. See the COPYING file at the top-level directory or at
 #  https://github.com/hitobito/hitobito_zss.
 
+class Group::VerbandKontakte < ::Group
+  children VerbandKontakte
 
-Group::Dachverband.seed_once(:parent_id, name: "Zürcher Stadtverband für Sport")
+  ### ROLES
+
+  class Administration < ::Role
+    self.permissions = [:group_full]
+  end
+
+  class Kontakt < ::Role
+  end
+
+  class Mitarbeitender < ::Role
+  end
+
+  roles Administration, Kontakt, Mitarbeitender
+end

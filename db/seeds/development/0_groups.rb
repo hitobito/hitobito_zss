@@ -20,6 +20,35 @@ if root.address.blank?
   end
 end
 
-# TODO: define more groups
+fussballverband = Group::Verband.seed_once(:name,
+  parent_id: root.id,
+  name: "Fussballverband Zürich").first
+
+turnverband = Group::Verband.seed_once(:name,
+  parent_id: root.id,
+  name: "Turnverband Zürich").first
+
+[
+  "FC Zürich",
+  "FC Winterthur"
+].each do |name|
+  Group::Verein.seed_once(:name, parent_id: fussballverband.id, name: name)
+end
+
+Group::Verein.seed_once(:name,
+  parent_id: turnverband.id,
+  name: "TV Zürich-Oerlikon")
+
+Group::Verein.seed_once(:name,
+  parent_id: root.id,
+  name: "Leichtathletikclub Zürich")
+
+pfadi = Group::AssoziiertesMitglied.seed_once(:name,
+  parent_id: root.id,
+  name: "Pfadi Zürich").first
+
+Group::Verein.seed_once(:name,
+  parent_id: pfadi.id,
+  name: "Pfadiabteilung Wehntal")
 
 Group.rebuild!

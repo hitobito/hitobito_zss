@@ -23,4 +23,4 @@ member:
   first_name: My
   last_name: Member
   email: member0@hitobito.example.com
-  primary_group: root
+  primary_group: mitglieder

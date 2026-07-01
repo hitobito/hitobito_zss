@@ -12,7 +12,7 @@ class ZssPersonSeeder < PersonSeeder
 
   def amount(role_type)
     case role_type.name.demodulize
-    when "Member" then 5
+    when "Mitglied" then 5
     else 1
     end
   end
@@ -45,5 +45,5 @@ seeder.seed_all_roles
 
 root = Group.root
 devs.each do |name, email|
-  seeder.seed_developer(name, email, root, Group::Root::Leader)
+  seeder.seed_developer(name, email, root, Group::Dachverband::Administrator)
 end

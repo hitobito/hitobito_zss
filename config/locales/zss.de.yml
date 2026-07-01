@@ -10,16 +10,244 @@ de:
 
       ### GROUPS
 
-      group/root:
-        one: Hauptgruppe
-        other: Hauptgruppen
+      group/dachverband:
+        one: Dachverband
+        other: Dachverbände
 
+      group/dachverband_vorstand:
+        one: Vorstand
+        other: Vorstände
+
+      group/dachverband_mitarbeitende:
+        one: Mitarbeitende
+        other: Mitarbeitende
+
+      group/dachverband_mitglieder:
+        one: Mitglieder
+        other: Mitglieder
+
+      group/dachverband_goenner:
+        one: Gönner
+        other: Gönner
+
+      group/dachverband_versa:
+        one: Versa
+        other: Versa
+
+      group/dachverband_kontakte:
+        one: Kontakte
+        other: Kontakte
+
+      group/verband:
+        one: Verband
+        other: Verbände
+
+      group/verband_kontakte:
+        one: Kontakte
+        other: Kontakte
+
+      group/assoziiertes_mitglied:
+        one: Assoziiertes Mitglied
+        other: Assoziierte Mitglieder
+
+      group/assoziiertes_mitglied_kontakte:
+        one: Kontakte
+        other: Kontakte
+
+      group/verein:
+        one: Verein
+        other: Vereine
+
+      group/verein_kontakte:
+        one: Kontakte
+        other: Kontakte
 
       ### ROLES
 
-      group/root/leader:
-        one: Leitung
-        description: Leitungspersonen verwalten die Applikation.
-      group/root/member:
+      group/dachverband/administrator:
+        one: "Administrator:in"
+        other: "Administrator:innen"
+
+      group/dachverband_vorstand/praesident:
+        one: "Präsident:in"
+        other: "Präsident:innen"
+
+      group/dachverband_vorstand/mitglied:
         one: Mitglied
-        description: Mitglieder sind alle anderen.
+        other: Mitglieder
+
+      group/dachverband_mitarbeitende/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende
+
+      group/dachverband_mitglieder/mitglied:
+        one: Mitglied
+        other: Mitglieder
+
+      group/dachverband_mitglieder/ehrenmitglied:
+        one: Ehrenmitglied
+        other: Ehrenmitglieder
+
+      group/dachverband_mitglieder/passivmitglied:
+        one: Passivmitglied
+        other: Passivmitglieder
+
+      group/dachverband_mitglieder/inaktiv:
+        one: Inaktiv
+        other: Inaktive
+
+      group/dachverband_goenner/bronze:
+        one: Bronze
+        other: Bronze
+
+      group/dachverband_goenner/silber:
+        one: Silber
+        other: Silber
+
+      group/dachverband_goenner/gold:
+        one: Gold
+        other: Gold
+
+      group/dachverband_goenner/platin:
+        one: Platin
+        other: Platin
+
+      group/dachverband_versa/aktiv:
+        one: Aktiv
+        other: Aktive
+
+      group/dachverband_versa/abgelehnt:
+        one: Abgelehnt
+        other: Abgelehnte
+
+      group/dachverband_versa/sistiert:
+        one: Sistiert
+        other: Sistierte
+
+      group/dachverband_versa/ausgetreten:
+        one: Ausgetreten
+        other: Ausgetretene
+
+      group/dachverband_versa/provisorisch:
+        one: Provisorisch
+        other: Provisorische
+
+      group/dachverband_kontakte/kontakt:
+        one: Kontakt
+        other: Kontakte
+
+      group/dachverband_kontakte/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende
+
+      group/dachverband_kontakte/jugendsportveranstalter:
+        one: Jugendsportveranstalter
+        other: Jugendsportveranstalter
+
+      group/verband/praesident:
+        one: "Präsident:in"
+        other: "Präsident:innen"
+
+      group/verband/administration:
+        one: Administration
+        other: Administrationen
+
+      group/verband/verband:
+        one: Verband
+        other: Verbände
+
+      group/verband/jugendsportverantwortlicher:
+        one: "Jugendsportverantwortliche:r"
+        other: Jugendsportverantwortliche
+
+      group/verband/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende
+
+      group/verband/mitarbeitender_selfjugendsport:
+        one: "Mitarbeitende:r Selfjugendsport"
+        other: "Mitarbeitende Selfjugendsport"
+
+      group/verband_kontakte/administration:
+        one: Administration
+        other: Administrationen
+
+      group/verband_kontakte/kontakt:
+        one: Kontakt
+        other: Kontakte
+
+      group/verband_kontakte/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende
+
+      group/assoziiertes_mitglied/praesident:
+        one: "Präsident:in"
+        other: "Präsident:innen"
+
+      group/assoziiertes_mitglied/administration:
+        one: Administration
+        other: Administrationen
+
+      group/assoziiertes_mitglied/assoziiertes_mitglied:
+        one: Assoziiertes Mitglied
+        other: Assoziierte Mitglieder
+
+      group/assoziiertes_mitglied/jugendsportverantwortlicher:
+        one: "Jugendsportverantwortliche:r"
+        other: Jugendsportverantwortliche
+
+      group/assoziiertes_mitglied/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende
+
+      group/assoziiertes_mitglied/mitarbeitender_selfjugendsport:
+        one: "Mitarbeitende:r Selfjugendsport"
+        other: "Mitarbeitende Selfjugendsport"
+
+      group/assoziiertes_mitglied_kontakte/administration:
+        one: Administration
+        other: Administrationen
+
+      group/assoziiertes_mitglied_kontakte/kontakt:
+        one: Kontakt
+        other: Kontakte
+
+      group/assoziiertes_mitglied_kontakte/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende
+
+      group/verein/praesident:
+        one: "Präsident:in"
+        other: "Präsident:innen"
+
+      group/verein/administration:
+        one: Administration
+        other: Administrationen
+
+      group/verein/verein:
+        one: Verein
+        other: Vereine
+
+      group/verein/jugendsportverantwortlicher:
+        one: "Jugendsportverantwortliche:r"
+        other: Jugendsportverantwortliche
+
+      group/verein/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende
+
+      group/verein/mitarbeitender_selfjugendsport:
+        one: "Mitarbeitende:r Selfjugendsport"
+        other: "Mitarbeitende Selfjugendsport"
+
+      group/verein_kontakte/administration:
+        one: Administration
+        other: Administrationen
+
+      group/verein_kontakte/kontakt:
+        one: Kontakt
+        other: Kontakte
+
+      group/verein_kontakte/mitarbeitender:
+        one: "Mitarbeitende:r"
+        other: Mitarbeitende

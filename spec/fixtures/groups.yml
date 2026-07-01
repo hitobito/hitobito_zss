@@ -7,12 +7,20 @@
 root:
   parent:
   lft: 1
-  rgt: 2
-  name: Hauptgruppe
-  type: Group::Root
+  rgt: 4
+  name: Zürcher Stadtverband für Sport
+  type: Group::Dachverband
   email: root@example.net
   zip_code: 2843
   town: Neu Carlscheid
+  layer_group_id: <%= ActiveRecord::FixtureSet.identify(:root) %>
+
+mitglieder:
+  parent_id: <%= ActiveRecord::FixtureSet.identify(:root) %>
+  lft: 2
+  rgt: 3
+  name: Mitglieder
+  type: Group::DachverbandMitglieder
   layer_group_id: <%= ActiveRecord::FixtureSet.identify(:root) %>
 
 # TODO add more groups
