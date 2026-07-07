@@ -6,8 +6,6 @@
 #  https://github.com/hitobito/hitobito_zss.
 
 class Group::DachverbandGoenner < ::Group
-  self.static_name = true
-
   ### ROLES
 
   class Bronze < ::Role

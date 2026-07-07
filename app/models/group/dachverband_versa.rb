@@ -6,8 +6,6 @@
 #  https://github.com/hitobito/hitobito_zss.
 
 class Group::DachverbandVersa < ::Group
-  self.static_name = true
-
   ### ROLES
 
   class Aktiv < ::Role

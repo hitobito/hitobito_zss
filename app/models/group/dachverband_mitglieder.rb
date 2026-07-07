@@ -6,8 +6,6 @@
 #  https://github.com/hitobito/hitobito_zss.
 
 class Group::DachverbandMitglieder < ::Group
-  self.static_name = true
-
   ### ROLES
 
   class Mitglied < ::Role
