@@ -21,7 +21,7 @@ class Group::Verband < ::Group
     self.permissions = [:layer_full]
   end
 
-  class Verband < ::Role
+  class Geschaeftsstelle < ::Role
   end
 
   class Jugendsportverantwortlicher < ::Role
@@ -33,6 +33,6 @@ class Group::Verband < ::Group
   class MitarbeitenderSelfjugendsport < ::Role
   end
 
-  roles Praesident, Administration, Verband, Jugendsportverantwortlicher,
+  roles Praesident, Administration, Geschaeftsstelle, Jugendsportverantwortlicher,
     Mitarbeitender, MitarbeitenderSelfjugendsport
 end

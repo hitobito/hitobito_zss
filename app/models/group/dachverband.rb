@@ -13,6 +13,7 @@ class Group::Dachverband < ::Group
     DachverbandMitglieder,
     DachverbandGoenner,
     DachverbandVersa,
+    DachverbandZuerisport,
     DachverbandKontakte,
     Verband,
     AssoziiertesMitglied,
@@ -24,6 +25,7 @@ class Group::Dachverband < ::Group
     DachverbandMitglieder,
     DachverbandGoenner,
     DachverbandVersa,
+    DachverbandZuerisport,
     DachverbandKontakte
   ]
 

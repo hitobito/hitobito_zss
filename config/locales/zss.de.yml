@@ -34,6 +34,10 @@ de:
         one: Versa
         other: Versa
 
+      group/dachverband_zuerisport:
+        one: Zürisport
+        other: Zürisport
+
       group/dachverband_kontakte:
         one: Kontakte
         other: Kontakte
@@ -57,6 +61,10 @@ de:
       group/verein:
         one: Verein
         other: Vereine
+
+      group/verein_mitglieder:
+        one: Mitglieder
+        other: Mitglieder
 
       group/verein_kontakte:
         one: Kontakte
@@ -132,6 +140,10 @@ de:
         one: Provisorisch
         other: Provisorische
 
+      group/dachverband_zuerisport/abonnent:
+        one: "Abonnent:in"
+        other: "Abonnent:innen"
+
       group/dachverband_kontakte/kontakt:
         one: Kontakt
         other: Kontakte
@@ -152,9 +164,9 @@ de:
         one: Administration
         other: Administrationen
 
-      group/verband/verband:
-        one: Verband
-        other: Verbände
+      group/verband/geschaeftsstelle:
+        one: Geschäftsstelle
+        other: Geschäftsstellen
 
       group/verband/jugendsportverantwortlicher:
         one: "Jugendsportverantwortliche:r"
@@ -188,9 +200,9 @@ de:
         one: Administration
         other: Administrationen
 
-      group/assoziiertes_mitglied/assoziiertes_mitglied:
-        one: Assoziiertes Mitglied
-        other: Assoziierte Mitglieder
+      group/assoziiertes_mitglied/geschaeftsstelle:
+        one: Geschäftsstelle
+        other: Geschäftsstellen
 
       group/assoziiertes_mitglied/jugendsportverantwortlicher:
         one: "Jugendsportverantwortliche:r"
@@ -224,9 +236,9 @@ de:
         one: Administration
         other: Administrationen
 
-      group/verein/verein:
-        one: Verein
-        other: Vereine
+      group/verein/geschaeftsstelle:
+        one: Geschäftsstelle
+        other: Geschäftsstellen
 
       group/verein/jugendsportverantwortlicher:
         one: "Jugendsportverantwortliche:r"
@@ -239,6 +251,22 @@ de:
       group/verein/mitarbeitender_selfjugendsport:
         one: "Mitarbeitende:r Selfjugendsport"
         other: "Mitarbeitende Selfjugendsport"
+
+      group/verein_mitglieder/mitglied:
+        one: Mitglied
+        other: Mitglieder
+
+      group/verein_mitglieder/ehrenmitglied:
+        one: Ehrenmitglied
+        other: Ehrenmitglieder
+
+      group/verein_mitglieder/passivmitglied:
+        one: Passivmitglied
+        other: Passivmitglieder
+
+      group/verein_mitglieder/inaktiv:
+        one: Inaktiv
+        other: Inaktive
 
       group/verein_kontakte/administration:
         one: Administration
