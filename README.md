@@ -31,6 +31,8 @@ of Zss.
         * Sistiert: []
         * Ausgetreten: []
         * Provisorisch: []
+      * Zürisport
+        * Abonnent:in: []
       * Kontakte
         * Kontakt: []
         * Mitarbeitende:r: []
@@ -39,7 +41,7 @@ of Zss.
       * Verband
         * Präsident:in: []
         * Administration: [:layer_full]
-        * Verband: []
+        * Geschäftsstelle: []
         * Jugendsportverantwortliche:r: []
         * Mitarbeitende:r: []
         * Mitarbeitende:r Selfjugendsport: []
@@ -51,10 +53,15 @@ of Zss.
       * Verein
         * Präsident:in: []
         * Administration: [:layer_full]
-        * Verein: []
+        * Geschäftsstelle: []
         * Jugendsportverantwortliche:r: []
         * Mitarbeitende:r: []
         * Mitarbeitende:r Selfjugendsport: []
+      * Mitglieder
+        * Mitglied: []
+        * Ehrenmitglied: []
+        * Passivmitglied: []
+        * Inaktiv: []
       * Kontakte
         * Administration: [:group_full]
         * Kontakt: []
@@ -63,7 +70,7 @@ of Zss.
       * Assoziiertes Mitglied
         * Präsident:in: []
         * Administration: [:layer_full]
-        * Assoziiertes Mitglied: []
+        * Geschäftsstelle: []
         * Jugendsportverantwortliche:r: []
         * Mitarbeitende:r: []
         * Mitarbeitende:r Selfjugendsport: []
