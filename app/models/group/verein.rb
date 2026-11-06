@@ -8,9 +8,9 @@
 class Group::Verein < ::Group
   self.layer = true
 
-  children VereinKontakte
+  children VereinMitglieder, VereinKontakte
 
-  self.default_children = [VereinKontakte]
+  self.default_children = [VereinMitglieder, VereinKontakte]
 
   ### ROLES
 
@@ -21,7 +21,7 @@ class Group::Verein < ::Group
     self.permissions = [:layer_full]
   end
 
-  class Verein < ::Role
+  class Geschaeftsstelle < ::Role
   end
 
   class Jugendsportverantwortlicher < ::Role
@@ -33,6 +33,6 @@ class Group::Verein < ::Group
   class MitarbeitenderSelfjugendsport < ::Role
   end
 
-  roles Praesident, Administration, Verein, Jugendsportverantwortlicher,
+  roles Praesident, Administration, Geschaeftsstelle, Jugendsportverantwortlicher,
     Mitarbeitender, MitarbeitenderSelfjugendsport
 end
