@@ -12,7 +12,7 @@ class ZssPersonSeeder < PersonSeeder
 
   def amount(role_type)
     case role_type.name.demodulize
-    when "Mitglied" then 5
+    when "Mitglied", "Einzelmitglied" then 5
     else 1
     end
   end

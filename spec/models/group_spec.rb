@@ -31,4 +31,9 @@ describe Group do
       expect(layer_type::Geschaeftsstelle.label).to eq "Geschäftsstelle"
     end
   end
+
+  it "offers member roles in Verein Mitglieder" do
+    expect(Group::VereinMitglieder.role_types.map(&:label))
+      .to eq %w[Einzelmitglied Ehrenmitglied Freimitglied Passivmitglied]
+  end
 end
