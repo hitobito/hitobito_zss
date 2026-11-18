@@ -8,17 +8,17 @@
 class Group::VereinMitglieder < ::Group
   ### ROLES
 
-  class Mitglied < ::Role
+  class Einzelmitglied < ::Role
   end
 
   class Ehrenmitglied < ::Role
   end
 
+  class Freimitglied < ::Role
+  end
+
   class Passivmitglied < ::Role
   end
 
-  class Inaktiv < ::Role
-  end
-
-  roles Mitglied, Ehrenmitglied, Passivmitglied, Inaktiv
+  roles Einzelmitglied, Ehrenmitglied, Freimitglied, Passivmitglied
 end

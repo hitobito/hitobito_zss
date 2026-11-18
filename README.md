@@ -58,10 +58,10 @@ of Zss.
         * Mitarbeitende:r: []
         * Mitarbeitende:r Selfjugendsport: []
       * Mitglieder
-        * Mitglied: []
+        * Einzelmitglied: []
         * Ehrenmitglied: []
+        * Freimitglied: []
         * Passivmitglied: []
-        * Inaktiv: []
       * Kontakte
         * Administration: [:group_full]
         * Kontakt: []

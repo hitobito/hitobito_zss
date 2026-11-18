@@ -252,21 +252,21 @@ de:
         one: "Mitarbeitende:r Selfjugendsport"
         other: "Mitarbeitende Selfjugendsport"
 
-      group/verein_mitglieder/mitglied:
-        one: Mitglied
-        other: Mitglieder
+      group/verein_mitglieder/einzelmitglied:
+        one: Einzelmitglied
+        other: Einzelmitglieder
 
       group/verein_mitglieder/ehrenmitglied:
         one: Ehrenmitglied
         other: Ehrenmitglieder
 
+      group/verein_mitglieder/freimitglied:
+        one: Freimitglied
+        other: Freimitglieder
+
       group/verein_mitglieder/passivmitglied:
         one: Passivmitglied
         other: Passivmitglieder
-
-      group/verein_mitglieder/inaktiv:
-        one: Inaktiv
-        other: Inaktive
 
       group/verein_kontakte/administration:
         one: Administration
